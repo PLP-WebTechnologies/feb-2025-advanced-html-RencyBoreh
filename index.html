@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm justify-content-between px-3 navbar-dark fixed-top bg-primary">
+    <a href="#" class="navbar-brand">RJ</a>
+    <ul class="navbar-nav">
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+    </ul>
+  </nav>
+  <div class="container-fluid mt-4 pt-5 bg-light row">
+      <div class="container align-content-center p-3 col-sm-12 col-md-6 col-lg-6">
+        <div class="container">
+          <h2>The List of Fruits I love</h2>
+          <!-- my ordered list -->
+          <ol type="I">
+            <li>Mangoes</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+            <li>WaterMelons</li>
+            <li>Apples</li>
+            <li>PineApple</li>
+          </ol>
+        </div>
+       
+      </div>
+      <div class="container col-sm-12 col-lg-6 col-md-6 p-3">
+       <h2 class="text-center">This is an External Image</h2>
+       <!-- Elink to external image -->
+       <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Beautiful Landscape" class="img-fluid">
+      </div>
+  </div>
+  <div class="container-fluid p-3 mt-4 row">
+  <div class="container col-md-10 align-content-center col-sm-10 col-lg-6">
+    <h2 class="text-center mb-4">This is My table</h2>
+    <!-- table -->
+    <table class="table table-striped table-hover">
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Rency Boreh</td>
+        <td>515-30300</td>
+        <td>0722514600</td>
+        <td>jeptanuirency313@gmail.com</td>
+      </tr>
+      <tr>
+        <td>June Jeptoo</td>
+        <td>900-35600</td>
+        <td>0712514600</td>
+        <td>jeptoojune@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Ruth Metto</td>
+        <td>989-30300</td>
+        <td>0710598600</td>
+        <td>mettoruth313@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Brian Boreh</td>
+        <td>400-30300</td>
+        <td>0798636633</td>
+        <td>brianboreh200@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Kevin Brian</td>
+        <td>895-30300</td>
+        <td>0754577600</td>
+        <td>kevin888@gmail.com</td>
+      </tr>
+    </table>
+  </div>
+  <div class="container border-0 col-lg-6 col-md-10 col-sm-10">
+    <h2 class="text-center mb-4">Register Here 👇</h2>
+    <div class="container rounded-3 bg-light p-2 shadow">
+    <form>
+      <label for="name" class="form-label">Name:</label>
+      <input type="text" class="form-control" required>
+      <label for="psw" class="form-label">Password</label>
+      <input type="password" class="form-control" required>
+      <label for="date" class="form-labe">Date of Birth:</label>
+      <input type="date" class="form-control" required>
+      <label for="gender" class="form-label">Gender</label>
+      <select name="gender" id="gender" class="form-control">
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <p>Do you want to receive message from us?</p>
+      <input type="radio" id='yes' name="radios" required>
+      <label class="form-label"for='yes' >Yes</label> <br>
+      <input type="radio" id="no" name="radios">
+      <label for="no" class="form-label">No</label>
+      <p class="form-label">Choose your interests:</p> 
+      <input class="form-check-input" type="checkbox" id="coding" name="interests" value="coding">
+      <label class="form-check-label" for="coding">Coding</label><br>
+
+      <input class="form-check-input" type="checkbox" id="design" name="interests" value="design">
+      <label class="form-check-label" for="design">Design</label><br>
+
+      <input class="form-check-input" type="checkbox" id="travelling" name="interests" value="gaming">
+      <label class="form-check-label" for="gaming">Travelling</label><br><br>
+
+    <div class="d-grid">
+      <button class="btn btn-primary">Submit</button>
+    </div>
+
+    </form>
+      
+  </div>
+  </div>
+  </div>
+</body>
+</html>
